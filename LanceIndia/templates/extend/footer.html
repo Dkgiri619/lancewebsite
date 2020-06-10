@@ -1,3 +1,5 @@
+{% load static %}
+
 <footer id="footer" class="bg-one">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
@@ -18,7 +20,7 @@
 				<!-- copyright -->
 				<div class="copyright text-center">
 					<a href="index.html">
-						<!-- <img src="images/logo-meghna.png" alt="Meghna" />  -->
+						<!-- <img src="{% static 'images/logo-meghna.png' %}" alt="Meghna" />  -->
 						<svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1"
 							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -59,27 +61,27 @@
 		=====================================-->
 		
 		<!-- Main jQuery -->
-		<script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/jquery/dist/jquery.min.js' %}"></script>
 		<!-- Bootstrap 3.1 -->
-		<script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 		<!-- Slick Carousel -->
-		<script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/slick-carousel/slick/slick.min.js' %}"></script>
 		<!-- Portfolio Filtering -->
-		<script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/filterzr/jquery.filterizr.min.js' %}"></script>
 		<!-- Smooth Scroll -->
-		<script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/smooth-scroll/dist/js/smooth-scroll.min.js' %}"></script>
 		<!-- Magnific popup -->
-		<script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/magnific-popup/dist/jquery.magnific-popup.min.js' %}"></script>
 		<!-- Google Map API -->
 		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
 		<!-- Sticky Nav -->
-		<script type="text/javascript" src="plugins/Sticky/jquery.sticky.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/Sticky/jquery.sticky.js' %}"></script>
 		<!-- Number Counter Script -->
-		<script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/count-to/jquery.countTo.js' %}"></script>
 		<!-- wow.min Script -->
-		<script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
+		<script type="text/javascript" src="{% static '' %}plugins/wow/dist/wow.min.js"></script>
 		<!-- Custom js -->
-		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 		
     </body>
 </html>
